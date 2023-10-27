@@ -3,10 +3,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>American Photonics Low Power CO2 Laser System - Product Smart Selector</title>
+    <title>American Photonics Low Power CO2 Laser System - Smart Product Selector</title>
     <style>
         body {
-            font-family: "Open Sans", Arial, sans-serif;
             background-image: url('https://cdn.shopify.com/s/files/1/1723/4335/files/high-powerslide.jpg?v=1691082796');
             background-size: cover;
             background-attachment: fixed;
@@ -20,12 +19,15 @@
                 padding: 20px;
             }
         h1, h2 {
-            text-align: center;
+            font-family: "Open Sans", Arial, sans-serif;
+            text-align: left;
             color: #2a3762;
         }
         label, select, p {
             margin: 1em;
             font-family: "Open Sans", Arial, sans-serif;
+            font-size: 15px;
+            line-height: 1.6;
         }
         select {
             padding: 10px;
@@ -38,6 +40,10 @@
         }
         label strong {
             color: #2a3762;
+        }
+        span.small {
+            color: floralwhite;
+            font-size: 11px;
         }
     </style>
     <script>
@@ -89,7 +95,16 @@
             <div style="text-align: center;">
                 <a href="https://americanphotonics.com"><img src="https://cdn.shopify.com/s/files/1/1723/4335/files/APC_BW_NoBG.png?v=1698243591" alt="American Photonics Logo" style="width: 250px; margin-top: 20px;"></a>
             </div>
-    <h1>American Photonics Low Power CO2 Laser System - Product Smart Selector</h1>
+    <p>For a hassle-free shopping experience, click the link to visit our e-commerce website directly. If you wish to explore more products after your visit, just return to our product selector. 🛒👍
+When it comes to lens diameter, the link will lead you to a product page featuring a 2” focal length lens. We offer a wide range of focal lengths for our lenses, including 1.5", 2.0", 2.5", 3.0", 4.0", and more. Be sure to choose the focal length that best suits your application. 🎯🔍
+We strongly recommend keeping a backup lens on hand to prevent machine downtime and delays in order fulfillment. Experimenting with different focal lengths can significantly boost your machine's performance. 🕒🛠️
+Rest assured, all American Photonics lenses are 100% made in the USA from high-quality Laser Grade ZnSe. 🇺🇸🌟
+Our mirrors are Silver Silicon Mirrors, featuring ultra-reflective coatings that provide superior transmission—truly the best mirror quality you can find in the market. 🪞✨
+The alignment tool we offer is designed for ease of use, helping you save time and elevate your machine's performance. A well-aligned machine is crucial for achieving top-quality output. 📏🔧
+Our kits are a one-stop solution that often proves to be more economical. By purchasing a kit, you'll save both time and money. 💼💰
+Happy shopping! 😊🎉
+</p>
+    <h1>American Photonics Low Power CO2 Laser System - Smart Product Selector</h1>
     
         <label for="brandSelect"><strong>Step 1: Choose your brand</strong></label>
     <select id="brandSelect" onchange="updateMachineOptions()">
@@ -142,7 +157,7 @@
     <select id="machineSelect" onchange="updateRecommendations()">
     </select>
     
-    <h2>Your Recommendations</h2>
+    <h2>Your Recommendations:</h2>
     <p><strong>Lens Diameter:</strong> <span id="lensDiameter"></span></p>
     <p><strong>Lens Part Number:</strong> <span id="lensPartNumber"></span></p>
     <p><strong>Mirror Diameter:</strong> <span id="mirrorLink"></span></p>
@@ -194,6 +209,11 @@
             updateRecommendations();
         };
     </script>
-
+    </div>
 </body>
+<footer>
+    <p><span class="small">Disclaimer: American Photonics is an independent manufacturer of high-quality optics and laser components. While we offer compatible replacement parts for various original equipment manufacturers (OEMs), we are neither affiliated with, nor an authorized distributor or representative of any OEM or their brands. Any use of OEM names, trademarks, model numbers, or part numbers is for identification and cross-referencing purposes only.<br>
+    It's important to note that our products are not just replacements, but often exceed the quality and performance of original OEM parts, providing equal or superior quality. All American Photonics products are 100% made in the USA, ensuring top-tier quality and performance.
+</span></p>
+</footer>
 </html>
